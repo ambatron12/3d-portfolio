@@ -9,7 +9,6 @@ import {animate, useMotionValue} from "framer-motion";
 import {motion} from "framer-motion-3d";
 import {useEffect, useRef, useState} from "react";
 import {framerMotionConfig} from "../config";
-import {Avatar} from "./Avatar";
 import {Office} from "./Office";
 
 import {Projects} from "./Projects";
@@ -132,7 +131,7 @@ export const Experience = (props) => {
             scaleZ: 1,
           },
         }}>
-        <Avatar animation={characterAnimation} wireframe={section === 1} />
+       
       </motion.group>
       <ambientLight intensity={1} />
       <motion.group
